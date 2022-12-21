@@ -1,0 +1,161 @@
+:root {
+  --Bug-color: #a8b820;
+  --Dark-color: #705848;
+  --Dragon-color: #7038f8;
+  --Electric-color: #f8d030;
+  --Fairy-color: #ee99ac;
+  --Fighting-color: #c03028;
+  --Fire-color: #f08030;
+  --Flying-color: #a890f0;
+  --Ghost-color: #705898;
+  --Grass-color: #78c850;
+  --Ground-color: #e0c068;
+  --Ice-color: #98d8d8;
+  --Normal-color: #a8a878;
+  --Poison-color: #a040a0;
+  --Psychic-color: #f85888;
+  --Rock-color: #b8a038;
+  --Steel-color: #b8b8d0;
+  --Water-color: #6890f0;
+}
+
+body {
+  background-color: #434242;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+}
+
+.box button {
+  padding: 0.5em 1.25em;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5em;
+  color: #000;
+  background-color: #eff5f5;
+  border: 1px solid #eff5f5;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.box button:active {
+  transform: scale(0.98);
+}
+
+.box button:hover {
+  background-color: #cacdcd;
+}
+
+.box .card {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 200px;
+  padding: 0.5em 1.25em;
+  margin-top: 20px;
+}
+
+.box .card .dexId {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.box .card img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.typeflex {
+  display: flex;
+}
+
+.types {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 2px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.types.bug {
+  background-color: var(--Bug-color);
+}
+
+.types.dark {
+  background-color: var(--Dark-color);
+}
+
+.types.dragon {
+  background-color: var(--Dragon-color);
+}
+
+.types.electric {
+  background-color: var(--Electric-color);
+}
+
+.types.fairy {
+  background-color: var(--Fairy-color);
+}
+
+.types.fighting {
+  background-color: var(--Fighting-color);
+}
+
+.types.fire {
+  background-color: var(--Fire-color);
+}
+
+.types.flying {
+  background-color: var(--Flying-color);
+}
+
+.types.ghost {
+  background-color: var(--Ghost-color);
+}
+
+.types.grass {
+  background-color: var(--Grass-color);
+}
+
+.types.ground {
+  background-color: var(--Ground-color);
+}
+
+.types.ice {
+  background-color: var(--Ice-color);
+}
+
+.types.normal {
+  background-color: var(--Normal-color);
+}
+
+.types.poison {
+  background-color: var(--Poison-color);
+}
+
+.types.psychic {
+  background-color: var(--Psychic-color);
+}
+
+.types.rock {
+  background-color: var(--Rock-color);
+}
+
+.types.steel {
+  background-color: var(--Steel-color);
+}
+
+.types.water {
+  background-color: var(--Water-color);
+}
